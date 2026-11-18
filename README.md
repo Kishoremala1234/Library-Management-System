@@ -1,5 +1,9 @@
 # 📚 Library Management System
 
+<p align="center">
+  <img src="assets/banner.jpg" alt="Library Management System Hero Banner" width="100%" />
+</p>
+
 A full-stack Library Management System built using **React.js**, **ASP.NET Core Web API (.NET 10)**, **PostgreSQL**, and **JWT Authentication**. The application provides a centralized platform for managing library books, handling user authentication, and controlling access based on user roles.
 
 The system supports two user roles:
@@ -18,9 +22,7 @@ The system supports two user roles:
 - [Database Design](#-database-design)
 - [Project Structure](#-project-structure)
 - [Installation and Setup](#️-installation-and-setup)
-- [Before Uploading to GitHub](#-before-uploading-to-github)
 - [API Documentation](#-api-documentation)
-- [Testing](#-testing)
 - [Security Considerations](#-security-considerations)
 - [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
@@ -42,8 +44,6 @@ The Library Management System is designed to simplify and streamline library ope
 ---
 
 ## 📸 Screenshots
-
-> *Place your screenshots inside an `assets/screenshots/` folder in your project repository.*
 
 | 🏠 Home Page | 🔐 Login Page |
 | :---: | :---: |
@@ -358,18 +358,6 @@ Ensure the following settings are configured via `appsettings.json` or developme
 
 ---
 
-## 📋 Before Uploading to GitHub
-
-A few important things to check:
-- [ ] Add actual screenshots of the Admin and User dashboards (and Home / Login) in `assets/screenshots/`.
-- [ ] Verify the API endpoint names against your controllers.
-- [ ] Include the complete database schema, including authentication tables.
-- [ ] Add `.gitignore` files for React and .NET.
-- [ ] Never upload database passwords, JWT secrets, or `.env` files.
-- [x] Add your actual GitHub profile link.
-
----
-
 ## 🔗 API Documentation
 
 The backend exposes REST endpoints for authentication, book catalog management, and admin insights.
@@ -397,19 +385,6 @@ The backend exposes REST endpoints for authentication, book catalog management, 
 
 > **Note:** Verify endpoint routes against your actual controller routes (`[Route("api/[controller]")]`) before deploying.
 
----
-
-## 🧪 Testing
-
-Ensure the following workflows are validated before production:
-- [x] User registration with validation checks.
-- [x] User login and JWT token generation.
-- [x] Protected route redirection on the frontend.
-- [x] Role authorization enforcement on restricted endpoints.
-- [x] Creating, reading, updating, and soft-deleting books.
-- [x] Verifying that soft-deleted books (`isdeleted = true`) do not appear in active listings.
-- [x] Admin dashboard user count query.
-- [x] PostgreSQL connection resiliency and proper error handling.
 
 ---
 
@@ -458,10 +433,5 @@ Software Developer
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
----
 
 ⭐ *If you find this project useful, consider giving the repository a star!*
