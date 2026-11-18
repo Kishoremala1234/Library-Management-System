@@ -1,9 +1,5 @@
 # 📚 Library Management System
 
-<p align="center">
-  <img src="assets/banner.jpg" alt="Library Management System Hero Banner" width="100%" />
-</p>
-
 A full-stack Library Management System built using **React.js**, **ASP.NET Core Web API (.NET 10)**, **PostgreSQL**, and **JWT Authentication**. The application provides a centralized platform for managing library books, handling user authentication, and controlling access based on user roles.
 
 The system supports two user roles:
